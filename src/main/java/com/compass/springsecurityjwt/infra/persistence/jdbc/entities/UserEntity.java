@@ -44,5 +44,6 @@ public class UserEntity {
         this.email = email;
         this.enabled = false;
         this.createdAt = LocalDateTime.now();
+        this.updatedAt = LocalDateTime.now();
     }
 }

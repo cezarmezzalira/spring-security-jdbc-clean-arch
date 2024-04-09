@@ -26,6 +26,6 @@ public class UserEntityMapper {
                 entity.getEmail(),
                 entity.isEnabled(),
                 entity.getCreatedAt().toString(),
-                entity.getUpdatedAt() != null ? entity.getUpdatedAt().toString() : null);
+                entity.getUpdatedAt().toString());
     }
 }
